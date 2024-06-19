@@ -1,0 +1,39 @@
+.filter-options {
+  display: flex;
+  justify-content: space-between; /* Verteilt die Inhalte auf der gesamten Breite des Containers */
+  align-items: center;
+}
+
+.filter-buttons {
+  display: flex;
+}
+
+.btn-filter,
+.btn-see-all {
+  background-color: #d7f1d3;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.btn-filter:hover,
+.btn-see-all:hover {
+  background-color: #b9e6b0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-filter:not(:last-child),
+.btn-see-all {
+  margin-right: 10px;
+}
+
+.button-space {
+  flex: 1;
+}
+
+.btn-see-all {
+  border-radius: 20px;
+}

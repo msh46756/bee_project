@@ -1,0 +1,20 @@
+.container{
+    width: 40%;
+    margin-top: -1100px;
+    margin-bottom: 1100px;
+    margin-left: -1px;
+}
+
+.welcome-heading{
+    color: white !important;
+    font-weight: bolder;
+}
+
+.welcome-text{
+    color: white !important;
+    font-weight: normal;
+    margin-left: 120px;
+    width: 60%;
+    font-family: sans-serif;
+    
+}

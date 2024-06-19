@@ -1,0 +1,45 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent !important;
+  z-index: 1000;
+  padding: 10px 20px;
+  
+  
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.navbar-brand img {
+  height: 80px !important;
+  width: 150px !important;
+}
+
+.nav-link {
+  margin-right: 15px;
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-input {
+  width: 700px;
+}
+
+@media (max-width: 991px) {
+  .nav-input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand img {
+    height: 60px !important;
+    width: 120px !important;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+}

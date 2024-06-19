@@ -1,0 +1,19 @@
+.nativeplants-colored-box {
+  background-color: #d7f1d3;
+  color: black;
+  border-radius: 10px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nativeplants-box-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.nativeplants-box-text {
+  font-size: 1em;
+  font-weight: normal;
+}
